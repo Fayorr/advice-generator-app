@@ -22,5 +22,5 @@ async function generateAdvice(){
         console.log("There is an Error:", error)
     }
 }
-
+generateAdvice();
 window.addEventListener('load', generateAdvice);
